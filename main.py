@@ -58,7 +58,13 @@ def main():
     connection.send_file(output)
 
     print("[+] Files upload sucess !")
+    print("[+] Deleting temp dirs...")
+
+    clear_dirs()
+
+    print("[+] Directories delet sucessfull !")
     print("[+] Thanks for using !")
+
     full_exit()
 
 if __name__ == "__main__":

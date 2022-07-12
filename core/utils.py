@@ -4,6 +4,7 @@ import requests
 import sys
 import re
 
+TEMP_DIRS = []
 
 def extract_filename(headers):
     content = headers.get('content-disposition')
