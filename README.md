@@ -12,7 +12,7 @@ You don't trust me ?
 
 Let's try it out !
 
-Simply check the server [README.md](http://github/readme/of/server) and follow the steps.
+Simply check the server [README.md](https://github.com/fxndone/FO-Drive_Server/blob/main/README.md) and follow the steps.
 
 After you've setup your server, simply grab the url, the username and the password, and create your "config.cfg" file following this example :
 
@@ -28,13 +28,13 @@ Where :
  - `USER` is the username you configured earlier on your server
  - `DIRECTORY` is your local directory that will be linked to the remote server one (every change on this local directory will appear on the server)
 
-After that, run [main.py](https://github.com/path/to/main.py) locally :
+After that, run [main.py](https://github.com/fxndone/FO-Drive/blob/main/main.py) locally :
 
     python main.py
 
 And... that it !
 
-The setup is finished, and now, every time you launch [main.py](https://github.com/path/to/main.py) it will copy your saved files from the server, and every time you close it (without brutal close), it will send changes to the server !
+The setup is finished, and now, every time you launch [main.py](https://github.com/fxndone/FO-Drive/blob/main/main.py) it will copy your saved files from the server, and every time you close it (without brutal close), it will send changes to the server !
 
 Feel free to update this as you wish !
 
