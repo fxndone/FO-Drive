@@ -21,7 +21,6 @@ def main():
     PASS = getpass.getpass("[?] Please enter the password you configured on your server : ")
 
     connection = DriveClient(PASS)
-    print(connection.get_base_url())
 
     print("[+] Connection established !")
     print()
@@ -61,6 +60,7 @@ def main():
     print("[+] Deleting temp dirs...")
 
     clear_dirs()
+    delet_directory(DIR)
 
     print("[+] Directories delet sucessfull !")
     print("[+] Thanks for using !")
